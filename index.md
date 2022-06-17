@@ -32,4 +32,4 @@ Announcements and messages are posted in [Canvas](https://uit.instructure.com/co
 
 ## Submission and exam 
 
- In this course, you will write two obligatory term papers on given topics on market analysis and a project presentation. Your final grade is determined based on these two term papers. This implies that there is no final exam for this course. You can write the term papers alone or with up to two individuals in a group. The term papers should have to be submitted through Wiseflow within a given deadline date. 
+ In this course, you will be given a set of exercises from each chapter of the course. 
