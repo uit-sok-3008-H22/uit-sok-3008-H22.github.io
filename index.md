@@ -9,7 +9,7 @@
 
 [Timeplan](https://timeplan.uit.no/emne_timeplan.php?sem=22h&module=SOK-3008-1#week=33-52 ){:target="blank"} at timeplan.uit.no
 
-Recordings of the lectures will be posted in Canvas via [Panopto Video](https://uit.instructure.com/courses/25562/external_tools/1032){:target="blank"}   
+%Recordings of the lectures will be posted in Canvas via [Panopto Video](https://uit.instructure.com/courses/25562/external_tools/1032){:target="blank"}   
 
 ## Course description
  
