@@ -28,7 +28,7 @@ For inquiries of an administrative nature, send an e-mail to: <hhcampus@hjelp.ui
 
 ## Announcements
 
-Announcements and messages are posted in [Canvas](https://uit.instructure.com/courses/25562/announcements){:target="blank"}.
+Announcements and messages are posted in [Canvas](https://uit.instructure.com/courses/26960/announcements){:target="blank"}.
 
 ## Submission and exam 
 
