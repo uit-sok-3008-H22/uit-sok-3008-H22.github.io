@@ -6,7 +6,7 @@
 
 - [Where are we(progress),and what to do next!](courseplan.md){:target="blank"}
 
-
+## Schedule 
 A link to [Timeplan](https://timeplan.uit.no/emne_timeplan.php?sem=22h&module=SOK-3008-1#week=33-52 ){:target="blank"} at timeplan.uit.no
 
 ## Course description
