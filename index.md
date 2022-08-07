@@ -13,7 +13,7 @@ A link to [Timeplan](https://timeplan.uit.no/emne_timeplan.php?sem=22h&module=SO
  
 - [course content and objectives](https://uit.no/utdanning/emner/emne/765596/sok-3008){:target="blank"}
 
-## Obligatory Assignments (Examinations) and Submission 
+## Obligatory Assignments (Examination) and Submission 
 
  In this course, you will write two obligatory term papers on given topics on market analysis and a project presentation. Your final grade is determined based on these two term papers (this implies that there is no final exam for this course). You can write the term papers alone or with up to two individuals in a group. The term papers should have to be submitted through Wiseflow within a given deadline date.
  
