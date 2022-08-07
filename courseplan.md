@@ -14,8 +14,4 @@
 | 7| 10/09|AIDS Model Properties, derivation, elasticity formulas, restrictions (homogeneity, symmetry, and adding-up). <br /> Emeprical specification, estimation. |
 |**Deadline**|16/09|**Hand in proposal for first term paper/data and names (and group memebers)** <br/> Potenetial data source: official statistics|
 | 8|17/09 |Estimate Rotterdam <br /> [chapter_10.R](https://github.com/uit-sok-3008-H22/uit-sok-3008-H22.github.io/blob/main/chapter_10.R){:target='_blank_'} |
-| 9|04/09 | Introduction to the Tidyverse [datacamp](https://app.datacamp.com/learn/courses/introduction-to-the-tidyverse){:target='_blank_'} |
-| 10|10/09| Her finner du en liten digital bok om Tidyverse, [The Tidyverse Cookbook](https://rstudio-education.github.io/tidyverse-cookbook/){:target='_blank_'} |
-| 11|11/09 | Les disse to artiklene fra The Economist; [artikkel 1](https://uit.instructure.com/files/1703066/download?download_frd=1){:target='_blank_'}<br />[artikkel 2](https://uit.instructure.com/files/1703065/download?download_frd=1){:target='_blank_'}   |
-| | | Panel model [video](https://mediasite.uit.no/Mediasite/Play/605c35d2405d4b2f88b95c0cce60c6b11d){:target='_blank_'}|
-| | |The end | 
+
