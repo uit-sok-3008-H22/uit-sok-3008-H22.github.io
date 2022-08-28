@@ -8,7 +8,7 @@
 | 1|24/08 | - Brief introduction about consumer theory <br/> - Chapter 10 – Endogenous Regressors & Moment-Based Estimation (from Principles of Econometrics)|
 | 2| 26/08| Chapter 10 [R code for Ch.10](https://github.com/uit-sok-3008-H22/uit-sok-3008-H22.github.io/blob/main/chapter_10.R){:target='_blank_'} <br /> Chapter 11 - Simultaneous Equations Models.  [R code for Ch.11](https://github.com/uit-sok-3008-H22/uit-sok-3008-H22.github.io/blob/main/Chapter%2011.R){:target='_blank_'}  |
 | 3| 29/08|We will finish Chapter 11 from the earlier session.<br /> And if we have time, we will begin the Seemingly Unrelated Regression (SUR) Model.  <br /> Read SUR (PDF available on Canvas) before class.  [R code for SUR](https://github.com/uit-sok-3008-H22/uit-sok-3008-H22.github.io/blob/main/SUR.R){:target='_blank_'}|
-| 4| 30/08||
+| 4| 30/08|Consumer Theory, Market demand, Utility tree, General market theory restrictions,<br /> Hicksian versus Marshallian demands.<br /> (Resources are available on Canvas)|
 | 5|31/08 | |
 
 
