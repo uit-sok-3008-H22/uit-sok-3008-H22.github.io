@@ -18,3 +18,4 @@
 | 11|22/09 |Chapter 13 – Vector Error Correction Models (from Principles of Econometrics) and price analysis |
 | 12|26/09 |**Present your research topic and data for term paper one <br /> (5-10 min presentation)**|
 | 13|28/09 | **Supervision for term paper 1**|
+| 14|05/10 ||
