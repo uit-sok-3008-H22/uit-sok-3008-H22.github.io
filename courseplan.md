@@ -9,6 +9,12 @@
 | 2| 26/08| Chapter 10 [R code for Ch.10](https://github.com/uit-sok-3008-H22/uit-sok-3008-H22.github.io/blob/main/chapter_10.R){:target='_blank_'} <br /> Chapter 11 - Simultaneous Equations Models.  [R code for Ch.11](https://github.com/uit-sok-3008-H22/uit-sok-3008-H22.github.io/blob/main/Chapter%2011.R){:target='_blank_'}  |
 | 3| 29/08|We will finish Chapter 11 from the earlier session.<br /> And if we have time, we will begin the Seemingly Unrelated Regression (SUR) Model.  <br /> Read SUR (PDF available on Canvas) before class.  [R code for SUR](https://github.com/uit-sok-3008-H22/uit-sok-3008-H22.github.io/blob/main/SUR.R){:target='_blank_'} <br /> <br /> [Updated SUR R Code](https://github.com/uit-sok-3008-H22/uit-sok-3008-H22.github.io/blob/main/Chapter%2011_and_%20SUR.R){:target='_blank_'} |
 | 4| 30/08|Consumer Theory, Market demand, Utility tree, General market theory restrictions,<br /> Hicksian versus Marshallian demands.<br /> (Resources are available on Canvas)|
-| 5|31/08 | |
-
-
+| 5| 31/08| -| 
+| 6| 07/09| Finish the theoretical restrictions | 
+| 7| 09/09|Rotterdam Model Properties, derivation, elasticity formulas, restrictions (homogeneity, symmetry, and adding-up).<br /> Empirical specification, estimation. Augment demand model with seasonal effects and demographics/advertising. |
+| 8| 12/09|Estimate Rotterdam Model using R | 
+| 9| 14/09| AIDS Model Properties, derivation, elasticity formulas, restrictions (homogeneity, symmetry, and adding-up).Empirical specification, estimation.| 
+| 10|21/09 |Estimate AIDS Model using R <br /> <br /> **Deadline (16:00) for hand in of proposal for first term-paper with theme/data & name (and group members)**.<br />   [Here is a note on where to get data/ideas for term papers.](https://docs.google.com/document/d/e/2PACX-1vQgRG6r6bVJ6wbxcSEVwnABVsi8RkV7um6uLWJ7In3dHOWdqt99Lk1OtzPucv52nsvQN5lmx8g3c-EC/pub){:target='_blank_'} <br />  [Potential data source: official statistics](https://github.com/uit-sok-3008-H22/uit-sok-3008-H22.github.io/blob/main/Link%20to%20some%20data%20sources.docx){:target='_blank_'} |
+| 11|22/09 |Chapter 13 – Vector Error Correction Models (from Principles of Econometrics) and price analysis |
+| 12|26/09 |**Present your research topic and data for term paper one <br /> (5-10 min presentation)**|
+| 13|28/09 | **Supervision for term paper 1**|
