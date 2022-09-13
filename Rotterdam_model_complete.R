@@ -14,8 +14,6 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 #reads the file
  sok3008 <- read.csv("sok3008.csv", sep=";")
 
-#sok3008 <- read.csv("C:/Users/dki007/Desktop/Sok-3008/lab-2/sok3008.csv", sep=";")
-
 # data and variables
 mydata <- sok3008
 head(mydata)
