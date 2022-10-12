@@ -1,8 +1,9 @@
-#' # POE5 - Chapter 16
+
+#' POE5 - Chapter 16
 rm(list=ls())
 
 #' Data definition file:
-#browseURL("http://www.principlesofeconometrics.com/poe5/data/def/transport.def")
+browseURL("http://www.principlesofeconometrics.com/poe5/data/def/transport.def")
 
 # Obs:   21 
 # 
@@ -24,17 +25,62 @@ tally(~auto, data=transport) # frequency
 tally(~auto, data=transport, format="percent")
 gf_histogram(~auto, data=transport)
 
+
+# linear probability Model
+
+LPM <- lm(auto ~ dtime, data = transport)
+summary(LPM)
+
+confint(LPM)
+
+#' We estimate that if travel times by public transportation and automobile
+#' are equal, so that DTime =0, then the probability of a person choosing
+#' automobile travel is 0.4848, close to 50-50, with 95% interval estimates
+#' of [0.34, 0.63]
+#' 
+#' We estimate that, holding all else constant, an increase of 10 minutes
+#' in the difference in travel time,increasing public transportation 
+#' travel time relative to automobile travel time, increases the probability
+#' of choosing automobile travel by 0.07, with a 95% interval estimates
+#' of [0.05, 0.09], which seems relatively preise. 
+
+#' The fitted model can be used to estimate the probability of 
+#' automobile travel for any commuting time differentials. 
+#' 
+#' For Example, if dtime=0, no comutting time differentils 
+f <- makeFun(LPM) 
+f(dtime=0)
+f(0)
+
+#' If dtime =1, a 10 minute longer commute by public transportation
+#' we estimate the probability of automobile travel to be 0.5551. 
+f(dtime=1)
+f(1)
+
+
 #' Probit model
+?glm
 p1 <- glm(auto ~ dtime, x=TRUE, family = binomial(link = "probit"), data = transport)
 summary(p1)
 
+#' The negative sign of the intercept implies that when commuting times
+#' by bus and auto are equal so that dtime =0, individuals have a bias 
+#' against driving to work, relative to public transportation. 
 
-confint(p1) # confidence interval on parameters
-
-# Predicted probabilities at dtime=0, POE5, p. 691
+#' The estimated probability of a person choosing to drive to work when 
+#' dtime = 0, is: 
 f <- makeFun(p1) 
 f(dtime=0)
 f(0)
+
+#' The positive sign of b2 indicates that an increase in public 
+#' transportation travel time, relative to auto travel time, increase 
+#' the probability that an individual will choose to drive to work, and 
+#' this coeff is statistically significant. 
+
+confint(p1) # confidence interval on parameters
+
+
 
 #' Plot the predicted probabilities as a function of dtime
 require(rockchalk) || {install.packages("rockchalk"); require(rockchalk)}
@@ -51,11 +97,18 @@ tdp <- maTrend(q = dp, nam.c = "dtime", simu.c = FALSE)
 tdp
 plot(tdp)
 
-# Finding the marginal effect at dtime=2
+# Finding the marginal effect at dtime=2 
+#' (i.e., assuming travel via public transportation 
+#' takes 20 minutes longer than auto travel)
 f(2) 
 qnorm(f(2)) # qnorm calculates the inverse of the cdf
 dnorm(qnorm(f(2))) # then calculating the dnorm of the inverse gives you the pdf
 dnorm(qnorm(f(2)))*coef(p1)[2] # finally, the marginal effect
+
+#' An 10-minutes increase in the travel time via public
+#' transportation increases the probability of travel via auto by
+#' approximately 0.1037, given that taking the bus already requires 
+#' 20 minutes more travel time than driving. 
 
 g <- function(x) {dnorm(qnorm(f(x)))*coef(p1)[2]}
 g(2)
@@ -73,12 +126,16 @@ require(mfx) || {install.packages("mfx"); require(mfx)}
 probitmfx(formula=auto ~ dtime, data=transport)  # calculated at the mean of a variable 
 probitmfx(formula=auto ~ dtime, atmean = FALSE, data=transport) # AME, POE4, p. 594, calculated as the mean of a each data point
 
+
 #' Logit model
 l1 <- glm(auto ~ dtime, family = binomial(link = "logit"), data = transport)
 summary(l1)
 
 car::compareCoefs(p1,l1)
 coef(l1)[2]/coef(p1)[2]
+
+
+
 
 # Flip coding on auto
 transport <- transport %>% mutate(inv.auto = ifelse(auto==0,1,0))
@@ -236,6 +293,17 @@ cplot(logit2, "pr_coke")
 
 # Make a plot of the own price elasticity of pepsi, from the choice of pepsi as the dependent variable
 # What is the own price elasticity at the mean price of pepsi, with no advertising?
+
+
+
+
+
+
+
+
+
+
+
 
 
 
