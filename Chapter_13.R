@@ -65,6 +65,17 @@ summary(fit2)
 #' 
 #' With cointegrated series we can construct a VEC model to better understand the causal relationship between the two variables.
 
+#------------------------------------------------
+# Alternatively, cointegration test using the Johansen Approach 
+
+suppressPackageStartupMessages(library(vars))
+?ca.jo
+
+joh_app=ca.jo(gdp, type = "trace", ecdet = c("const"), K = 2, spec = "longrun")
+
+summary(joh_app)
+#------------------------------------------
+
 #Example 13.9
 vecaus<- dynlm(d(aus)~L(ehat), data=gdp)
 vecusa <- dynlm(d(usa)~L(ehat), data=gdp)
